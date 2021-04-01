@@ -14,10 +14,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-  padding: 0 48px 92px 48px;
+  .lead {
+    max-width: 928px;
+    min-height: 962px;
+    padding: 0 48px 92px 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+    min-height: 862px;
+    padding: 0 0 88px 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
