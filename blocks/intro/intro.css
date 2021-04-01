@@ -1,0 +1,21 @@
+.intro {
+    max-width: 1280px;
+    min-height: 429px;
+    margin: auto;
+    padding: 0 148px 92px 148px;
+    background-color: var(--background);
+    color: inherit;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+}

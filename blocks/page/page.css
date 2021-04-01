@@ -1,0 +1,37 @@
+.page {
+  max-width: 100vw;
+  background-color: var(--canva);
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  color: var(--text);
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    max-width: 425px;
+  } 
+}
+
+@media screen and (max-width: 375px) {
+  .page {
+    max-width: 375px;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
+}

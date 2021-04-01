@@ -1,0 +1,23 @@
+.place {
+    max-width: 1280px;
+    min-height: 660px;
+    padding: 0 148px 80px 148px;
+    background-color: var(--background);
+    color: inherit;
+    font-family: inherit;
+    display: grid;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+    gap: 48px 40px;
+    grid-template-rows: minmax(min-content, 76px) minmax(460px, min-content);
+    flex-direction: column;
+    justify-content: left;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+}

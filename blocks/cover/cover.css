@@ -1,0 +1,17 @@
+.cover {
+  max-width: 100%;
+  min-height: 740px;
+  padding: 0 48px 92px 48px;
+  background-color: var(--background);
+  color: inherit;
+  font-family: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+}

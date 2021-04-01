@@ -1,0 +1,31 @@
+.header__lang-link {
+  color: var(--text);
+  text-decoration: none;
+  justify-self: end;
+  margin-right: 18px;
+  padding-top: 18px;
+  justify-self: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link:last-of-type {
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    margin-right: 18px;
+    padding-top: 14px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

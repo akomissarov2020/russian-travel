@@ -1,0 +1,22 @@
+.footer {
+  max-width: calc(1280px - 48px - 48px);
+  margin: auto;
+  min-height: 18px;
+  padding: 0 48px 24px 48px;
+  background-color: var(--background);
+  color: inherit;
+  font-family: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+}

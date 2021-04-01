@@ -1,0 +1,24 @@
+.lead {
+  max-width: 1280px;
+  min-height: 740px;
+  margin: auto;
+  padding: 0 148px 92px 148px;
+  background-color: var(--background);
+  color: inherit;
+  font-family: inherit;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  padding: 0 48px 92px 48px;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+}
