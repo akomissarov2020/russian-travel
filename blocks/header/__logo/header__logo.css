@@ -1,22 +1,25 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
-  background-image: url(../../../images/header-logo.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  flex-grow: initial;
-  margin-right: auto;
+    width: 176px;
+    height: 52px;
+    background-image: url(../../../images/header-logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-grow: initial;
+    margin-right: auto;
+    transition: opacity 0.2s ease-in;
 }
 
-@media screen and (max-width: 1024px) {
+.header__logo:hover {
+    opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
-}
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 320px) {
-  .header__logo {
-    width: 142px;
-    height: 42px;
-  }
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
 }
