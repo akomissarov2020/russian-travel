@@ -1,9 +1,6 @@
 .intro {
-    max-width: 1280px;
     min-height: 429px;
-    margin: auto;
     padding: 0 148px 92px 148px;
-    background-color: var(--background);
     color: inherit;
     font-family: inherit;
     display: flex;
@@ -23,6 +20,8 @@
     }
 }
 
-
 @media screen and (max-width: 320px) {
+    .intro {
+        padding: 0 16px 64px 16px;
+    }
 }

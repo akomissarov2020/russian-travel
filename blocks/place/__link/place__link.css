@@ -3,9 +3,10 @@
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
-line-height: 22px;
+line-height: 1.22;
 text-decoration-line: underline;
 color: var(--text);
+transition: opacity 0.2s ease-in;
 }
 
 .place__link:hover {
@@ -21,4 +22,7 @@ color: var(--text);
 }
 
 @media screen and (max-width: 320px) {
+    .place__link {
+        font-size: 18px;
+    }
 }

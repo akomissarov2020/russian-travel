@@ -1,4 +1,5 @@
 .footer__link {
+    
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -6,10 +7,11 @@ line-height: 18px;
 text-decoration: none;
 padding: 0 18px 0 0;
 color: var(--text);
+transition: opacity 0.2s ease-in;
 }
 
 .footer__link:last-of-type {
-    padding: 0;
+    padding-bottom: 0;
 }
 
 .footer__link:hover {
@@ -22,5 +24,17 @@ color: var(--text);
 @media screen and (max-width: 768px) {
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 615px) {
+    .footer__link {
+        margin: 0;
+        display: block;
+        font-size: 24px;
+        line-height: 1.0;
+        margin: 16px 0 32px 0;
+        padding-left: 16px;
+    }
+
+    .footer__link:last-of-type {
+        margin: 16px 0 48px 0;
+    }
 }

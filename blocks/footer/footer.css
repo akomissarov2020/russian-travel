@@ -1,6 +1,4 @@
 .footer {
-  max-width: calc(1280px - 48px - 48px);
-  margin: auto;
   min-height: 18px;
   padding: 0 48px 24px 48px;
   background-color: var(--background);
@@ -19,8 +17,12 @@
   .footer {
     padding: 0 24px 24px 24px;
   }
-
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 615px) {
+  .footer {
+    display: inline-block;
+    padding: 0 0 16px 0;
+    width: 100%;
+  }
 }

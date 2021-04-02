@@ -3,6 +3,11 @@
   background-color: var(--canva);
   margin: 0;
   font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothin: antialiased;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
   color: var(--text);
 }
 

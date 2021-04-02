@@ -1,7 +1,5 @@
 .lead {
-  max-width: 1280px;
   min-height: 740px;
-  margin: auto;
   padding: 0 148px 92px 148px;
   background-color: var(--background);
   color: inherit;
@@ -30,4 +28,9 @@
 }
 
 @media screen and (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+    min-height: 406px;
+    padding: 0 0 64px 0;
+  }
 }
