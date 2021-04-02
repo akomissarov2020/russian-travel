@@ -1,7 +1,6 @@
 .header__lang-link {
     color: var(--text);
     text-decoration: none;
-    justify-self: end;
     margin-right: 18px;
     padding-top: 18px;
     justify-self: flex-end;
