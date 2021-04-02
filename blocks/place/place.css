@@ -12,7 +12,7 @@
 }
 
 .place:last-of-type {
-    padding-bottom: 92px;
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,10 +21,6 @@
         grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
         grid-template-rows: minmax(min-content, 76px) minmax(340px, min-content);
         gap: 48px 32px;
-    }
-
-    .place:last-of-type {
-        padding-bottom: 92px;
     }
 }
 
@@ -36,10 +32,6 @@
         grid-template-rows: minmax(min-content, 46px) minmax(340px, min-content);
         gap: 48px 28px;
     }
-
-    .place:last-of-type {
-        padding-bottom: 90px;
-    }
 }
 
 @media screen and (max-width: 615px) {
@@ -47,10 +39,5 @@
         max-width: 100%;
         padding: 0 0 50px 0;
         display: inline-block;
-    }
-
-    .place:last-of-type {
-        padding-bottom: 90px;
-    }
-    
+    }    
 }

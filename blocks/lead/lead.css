@@ -1,6 +1,5 @@
 .lead {
-  min-height: 740px;
-  padding: 0 148px 92px 148px;
+  max-width: 1005px;
   background-color: var(--background);
   color: inherit;
   font-family: inherit;
@@ -9,28 +8,23 @@
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: 928px;
-    min-height: 962px;
-    padding: 0 48px 92px 48px;
+    /* max-width: 928px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    max-width: 768px;
-    min-height: 862px;
-    padding: 0 0 88px 0;
+    /* max-width: 768px; */
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
-    max-width: 320px;
-    min-height: 406px;
-    padding: 0 0 64px 0;
+    /* max-width: 320px; */
   }
 }

@@ -1,0 +1,11 @@
+.page__header {
+    max-width: calc(1280px - (48px * 2));
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__header {
+        margin-bottom: 48px;
+    }
+}
