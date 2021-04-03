@@ -1,7 +1,6 @@
 .intro {
-    max-width: 1005px;
+    max-width: 984px;
     min-height: 429px;
-    padding: 0 148px 0 148px;
     color: inherit;
     font-family: inherit;
     display: flex;
@@ -11,11 +10,12 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        padding: 0 48px 0 48px;
+        max-width: 928px;
+        padding: 0;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
     .intro {
         padding: 0 24px 0 24px;
     }

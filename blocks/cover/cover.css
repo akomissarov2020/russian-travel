@@ -1,29 +1,23 @@
 .cover {
-  width: 100%;
-  height: 100%;
-  max-width: 1184px;
-  
-  background-color: var(--background);
-  color: inherit;
-  font-family: inherit;
-
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background);
+    color: inherit;
+    font-family: inherit;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 @media screen and (max-width: 1024px) {
-  .cover {
-  }
+    .cover {}
 }
 
 @media screen and (max-width: 768px) {
-  .cover {
-  }
+    .cover {}
 }
 
 @media screen and (max-width: 320px) {
-  .cover {
-  }
+    .cover {}
 }

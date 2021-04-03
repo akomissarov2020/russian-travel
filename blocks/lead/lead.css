@@ -1,30 +1,22 @@
 .lead {
-  max-width: 1005px;
-  background-color: var(--background);
-  color: inherit;
-  font-family: inherit;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-content: center;
-  padding: 0;
+    max-width: 984px;
+    background-color: var(--background);
+    color: inherit;
+    font-family: inherit;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead {
-    /* max-width: 928px; */
-  }
+    .lead {
+        max-width: 928px;
+    }
 }
 
-@media screen and (max-width: 768px) {
-  .lead {
-    /* max-width: 768px; */
-  }
-}
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 320px) {
-  .lead {
-    /* max-width: 320px; */
-  }
-}
+@media screen and (max-width: 320px) {}
