@@ -1,28 +1,19 @@
 .place__link {
-    
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 1.22;
-text-decoration-line: underline;
-color: var(--text);
-transition: opacity 0.2s ease-in;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+    text-decoration-line: underline;
+    color: var(--text);
+    transition: opacity 0.2s ease-in;
 }
 
 .place__link:hover {
     opacity: 0.8;
 }
 
+@media screen and (max-width: 1024px) {}
 
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 320px) {
-    .place__link {
-        font-size: 18px;
-    }
-}
+@media screen and (max-width: 320px) {}
