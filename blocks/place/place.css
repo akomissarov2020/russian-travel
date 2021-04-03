@@ -1,5 +1,5 @@
 .place {
-    padding: 0 148px 80px 148px;
+    padding-bottom: 80px;
     background-color: var(--background);
     color: inherit;
     font-family: inherit;
@@ -17,7 +17,6 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        padding: 0 48px 80px 48px;
         grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
         grid-template-rows: minmax(min-content, 76px) minmax(340px, min-content);
         gap: 48px 32px;
@@ -26,8 +25,7 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        max-width: 720px;
-        padding: 0 24px 72px 24px;
+        padding-bottom: 72px;
         grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
         grid-template-rows: minmax(min-content, 46px) minmax(340px, min-content);
         gap: 48px 28px;
@@ -37,7 +35,7 @@
 @media screen and (max-width: 615px) {
     .place {
         max-width: 100%;
-        padding: 0 0 50px 0;
+        padding-bottom: 50px;
         display: inline-block;
-    }    
+    }
 }
