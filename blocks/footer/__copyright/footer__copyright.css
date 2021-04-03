@@ -2,21 +2,18 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.12;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-left: auto;
 }
 
-@media screen and (max-width: 1024px) {
-}
+@media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 768px) {
-}
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 615px) {
     .footer__copyright {
-        font-size: 14px;
         line-height: 1.0;
         padding-left: 16px;
     }
