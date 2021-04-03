@@ -1,21 +1,19 @@
 .page__container {
-  max-width: calc(1280px - (48px * 2));
-  margin: 0 auto;
-  margin-bottom: 92px;
+    max-width: calc(1280px - (48px * 2));
+    margin: 0 auto;
+    margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
-
-}
+@media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 768px) {
-  .page__container {
-    margin-bottom: 88px;
-}
+    .page__container {
+        margin-bottom: 88px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .page__container {
-    margin-bottom: 64px;
-}
+    .page__container {
+        margin-bottom: 64px;
+    }
 }
