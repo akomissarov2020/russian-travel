@@ -1,4 +1,5 @@
 .intro__list-text {
+    display: block;
     margin: 0px;
     padding: 0px;
     font-style: normal;
@@ -7,11 +8,8 @@
     line-height: 18px;
 }
 
-@media screen and (max-width: 1024px) {
-}
+@media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 768px) {
-}
+@media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 320px) {
-}
+@media screen and (max-width: 320px) {}
