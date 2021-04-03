@@ -2,7 +2,7 @@
     color: var(--text);
     text-decoration: none;
     margin-right: 18px;
-    padding-top: 18px;
+    margin-top: 18px;
     justify-self: flex-end;
     font-style: normal;
     font-weight: normal;
@@ -25,8 +25,7 @@
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        margin-right: 18px;
-        padding-top: 14px;
+        margin-top: 14px;
         font-size: 18px;
         line-height: 20px;
     }
