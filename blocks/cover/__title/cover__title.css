@@ -9,11 +9,9 @@
     margin-bottom: 32px;
 }
 
-@media screen and (max-width: 1024px) {
-}
+@media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 768px) {
-}
+@media screen and (max-width: 768px) {}
 
 @media screen and (max-width: 520px) {
     .cover__title {
@@ -29,7 +27,7 @@
 
 @media screen and (max-width: 320px) {
     .cover__title {
-        max-width: 288px;
+        max-width: 245px;
         font-size: 32px;
         margin-bottom: 16px;
     }
